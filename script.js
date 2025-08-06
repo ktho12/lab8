@@ -24,3 +24,7 @@ console.log("My name is " + jsonObj.name, ", I'm " + jsonObj.age, "and I'm takin
 let { name, age, courses } = person;
 console.log(name);
 console.log(courses);
+
+let scores = [56, 99, 74];
+console.log(scores[0]);
+console.log(scores[1]);
