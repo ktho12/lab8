@@ -1,0 +1,6 @@
+{
+    "name": "Jane",
+    "age": 24,
+    "enrolled": true,
+    "courses": ["Algebra", "Journalism", "Psychology"]
+}
