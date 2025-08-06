@@ -33,8 +33,11 @@ let [ one, two, three ] = scores;
 console.log(one);
 console.log(two);
 
-let student = { name: "Jane", age: 24, courses: ["Algebra", "Journalism", "Psychology"] };
-let copiedStudent = { ...student, graduating: 2027 };
+
+let copiedStudent = { ...person, graduating: 2027 };
 console.log(copiedStudent);
 
-let 
+let oldCourses = person.courses;
+let newCourses = ["Creative Writing", "Data Science", "Biology"];
+let totalCourses = [ ...oldCourses, ...newCourses ];
+console.log(totalCourses);
