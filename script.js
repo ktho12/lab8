@@ -20,3 +20,7 @@ console.log(jsonString);
 let jsonObj = JSON.parse(jsonString);
 console.log(jsonObj);
 console.log("My name is " + jsonObj.name, ", I'm " + jsonObj.age, "and I'm taking " + jsonObj.courses);
+
+let { name, age, courses } = person;
+console.log(name);
+console.log(courses);
