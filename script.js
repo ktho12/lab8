@@ -6,6 +6,15 @@ let person = {
     greet: function () {
         console.log("My name is " + this.name, ", I'm " + this.age, ", and I'm taking " + this.courses);
         return ("Student is enrolled: " + this.enrolled);
+    },
+
+    addCourse: function (courseName) {
+        this.courses.push(courseName);
+        console.log(person.courses);
+    },
+
+    allCourses: function () {
+        return this.courses.length;
     }
 };
 
@@ -41,3 +50,6 @@ let oldCourses = person.courses;
 let newCourses = ["Creative Writing", "Data Science", "Biology"];
 let totalCourses = [ ...oldCourses, ...newCourses ];
 console.log(totalCourses);
+
+person.addCourse('Chemistry');
+console.log(person.allCourses());
