@@ -28,3 +28,7 @@ console.log(courses);
 let scores = [56, 99, 74];
 console.log(scores[0]);
 console.log(scores[1]);
+
+let [ one, two, three ] = scores;
+console.log(one);
+console.log(two);
