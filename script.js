@@ -10,7 +10,9 @@ let person = {
 };
 
 console.log(person.name);
-console.log(person.age)
+console.log(person.age);
 
-console.log(person.greet())
+console.log(person.greet());
+
+
 
