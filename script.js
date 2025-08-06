@@ -32,3 +32,9 @@ console.log(scores[1]);
 let [ one, two, three ] = scores;
 console.log(one);
 console.log(two);
+
+let student = { name: "Jane", age: 24, courses: ["Algebra", "Journalism", "Psychology"] };
+let copiedStudent = { ...student, graduating: 2027 };
+console.log(copiedStudent);
+
+let 
