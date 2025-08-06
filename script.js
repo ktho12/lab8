@@ -15,6 +15,8 @@ console.log(person.age);
 console.log(person.greet());
 
 let jsonString = '{"name": "Jane", "age": 24, "enrolled": true, "courses": ["Algebra", " Journalism", " Psychology"]}';
+console.log(jsonString);
+
 let jsonObj = JSON.parse(jsonString);
 console.log(jsonObj);
 console.log("My name is " + jsonObj.name, ", I'm " + jsonObj.age, "and I'm taking " + jsonObj.courses);
